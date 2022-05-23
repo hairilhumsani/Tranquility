@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
+    tools:context=".PopTinnitus">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="About TINNITUS:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        app:fontFamily="@font/allan_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="307dp"
+        android:layout_height="376dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:scrollHorizontally="false"
+        android:text="This function is to help those suffering from tinnitus a little better when they sleep, or whenever they want to use it. You are able to adjust the knob to the frequency where it will reduce the ringing in the ear, or even better, cancel the ringing totally! However, remember not to go beyond the frequency of your ringing and dont go to high of a volume as it can make your hearing worse!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        app:fontFamily="@font/allan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+</androidx.constraintlayout.widget.ConstraintLayout>
